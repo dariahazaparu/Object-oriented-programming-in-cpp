@@ -11,14 +11,14 @@ class vector
 {
 private:
     int n; ///dimensiune vector
-    int v[1000]; ///vectorul
+    int v[NMAX]; ///vectorul
 public:
     vector(int dim = 0, int val = 0);
     vector(const vector& x);
     ~vector();
     friend ostream& operator << (ostream  &o, const vector &a);
     friend istream& operator >> (istream &i, vector &a);
-    vector operator = (vector const &x);
+    vector& operator = (vector const &x);
     void reactualizare(int dim, int val);
     int suma_elemente();
     pereche pozitie_maxim();
@@ -75,7 +75,7 @@ istream& operator >> (istream &i, vector &a) {
     }
     return i;
 }
-vector vector::operator = (vector const &x)
+vector& vector::operator = (vector const &x)
 {
     ///cout<<"="<<endl;
     this->n =  x.n;
@@ -148,7 +148,7 @@ void vector::sortare()
             }
         }
     }
-};
+}
 int vector::operator * (vector const &x)
 {
     int produs = 0;
