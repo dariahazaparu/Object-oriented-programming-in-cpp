@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 const int NMAX = 1000;
+
 struct pereche
 {
     int maxim;
@@ -11,21 +12,21 @@ class vector
 {
 private:
     int n; ///dimensiune vector
-    int v[1000]; ///vectorul
+    int v[NMAX]; ///vectorul
 public:
     vector(int dim = 0, int val = 0);
     vector(const vector& x);
     ~vector();
     friend ostream& operator << (ostream  &o, const vector &a);
     friend istream& operator >> (istream &i, vector &a);
-    vector operator = (vector const &x);
+    vector& operator = (vector const &x);
     void reactualizare(int dim, int val);
     int suma_elemente();
     pereche pozitie_maxim();
     void sortare();
     int operator * (vector const &x);
-
 };
+
 vector::vector(int dim, int val)
 {
     n = dim;
@@ -34,6 +35,7 @@ vector::vector(int dim, int val)
         v[i] = val;
     }
 }
+
 vector::vector( const vector& x)
 {
     ///cout<<"copiere"<<endl;
@@ -43,10 +45,12 @@ vector::vector( const vector& x)
         this->v[i] = x.v[i];
     }
 }
+
 vector::~vector()
 {
     n = 0;
 }
+
 ostream& operator << (ostream &o, const vector &a)
 {
     o << "=[";
@@ -65,6 +69,7 @@ ostream& operator << (ostream &o, const vector &a)
     o << "]" << endl;
     return o;
 }
+
 istream& operator >> (istream &i, vector &a) {
     cout << "dim:";
     i >> a.n;
@@ -75,7 +80,8 @@ istream& operator >> (istream &i, vector &a) {
     }
     return i;
 }
-vector vector::operator = (vector const &x)
+
+vector& vector::operator = (vector const &x)
 {
     ///cout<<"="<<endl;
     this->n =  x.n;
@@ -85,31 +91,19 @@ vector vector::operator = (vector const &x)
     }
     return *this;
 }
+
 void vector::reactualizare(int dim, int val)
 {
     if (dim <= NMAX) ///daca dimensiunea e prea mare, metoda nu se executa
     {
-        if (n > dim)
+        n = dim;
+        for (int i = 0; i < n; i++)
         {
-            for (int i = 0; i < dim; i++)
-            {
-                v[i] = val;
-            }
-            for (int i = dim; i < n; i++)
-            {
-                v[i] = 0;
-            }
-        }
-        else
-        {
-            n = dim;
-            for (int i = 0; i < n; i++)
-            {
-                v[i] = val;
-            }
+            v[i] = val;
         }
     }
 }
+
 int vector::suma_elemente()
 {
     int suma = 0;
@@ -119,12 +113,13 @@ int vector::suma_elemente()
     }
     return suma;
 }
+
 pereche vector::pozitie_maxim()
 {
     pereche p;
     p.maxim = v[0];
     p.pozitie = 0;
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i < n; i++)
     {
         if (v[i] > p.maxim)
         {
@@ -134,6 +129,7 @@ pereche vector::pozitie_maxim()
     }
     return p;
 }
+
 void vector::sortare()
 {
     for (int i = 0; i < n-1; i++)
@@ -148,41 +144,21 @@ void vector::sortare()
             }
         }
     }
-};
+}
+
 int vector::operator * (vector const &x)
 {
     int produs = 0;
     if (x.n != n) return 0;
-    else
+    for (int i = 0; i < n; i++)
     {
-        for (int i = 0; i < n; i++) {
-            produs += x.v[i] * v[i];
-        }
-        return produs;
+        produs += x.v[i] * v[i];
     }
-}
-
-void citire(int &nr, vector comp[])
-{
-    cout << "numar de obiecte citite: ";
-    cin >> nr;
-    cout << "componente obiecte:" << endl;
-    for (int i = 0; i < nr; i++)
-    {
-        cin >> comp[i];
-    }
-    for (int i = 0; i < nr; i++)
-    {
-        cout << "Vectorul " << i+1 << ": " << comp[i];
-    }
+    return produs;
 }
 
 int main()
 {
-    vector comp[100];
-    int nr;
-    citire (nr, comp);
-
     ///constructor de initializare
     vector a;
 
@@ -226,4 +202,8 @@ int main()
     cout << "produsul scalar dintre a sortat si c este " << k;
 
     return 0;
+
+    ///date de intrare pt a:
+    ///5
+    ///1 5 6 4 8
 }
