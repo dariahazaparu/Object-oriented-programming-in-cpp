@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Daria/poo/tema 2/persoana.cpp
+persoana.h
+D:/Daria/poo/tema 2/persoana.h
+iostream
+-
+utility
+-
+
+D:/Daria/poo/tema 2/persoana.h
+string
+-
+

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tema_2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Daria/poo/tema 2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tema_2">
+				<Option output="D:/Daria/poo/tema 2/cmake-build-debug/tema_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Daria/poo/tema 2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 tema_2"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tema_2/fast">
+				<Option output="D:/Daria/poo/tema 2/cmake-build-debug/tema_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Daria/poo/tema 2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 tema_2/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Daria/poo/tema 2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Daria/poo/tema 2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/Daria/poo/tema 2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Daria/poo/tema 2/abonat.cpp">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="D:/Daria/poo/tema 2/abonat.h">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="D:/Daria/poo/tema 2/abonat_skype.cpp">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="D:/Daria/poo/tema 2/abonat_skype.h">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="D:/Daria/poo/tema 2/abonat_skype_extern.cpp">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="D:/Daria/poo/tema 2/abonat_skype_extern.h">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="D:/Daria/poo/tema 2/abonat_skype_romania.cpp">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="D:/Daria/poo/tema 2/abonat_skype_romania.h">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="D:/Daria/poo/tema 2/agenda.cpp">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="D:/Daria/poo/tema 2/agenda.h">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="D:/Daria/poo/tema 2/main.cpp">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="D:/Daria/poo/tema 2/persoana.cpp">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="D:/Daria/poo/tema 2/persoana.h">
+			<Option target="tema_2"/>
+		</Unit>
+		<Unit filename="D:/Daria/poo/tema 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
