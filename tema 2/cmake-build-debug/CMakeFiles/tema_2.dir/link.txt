@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\tema_2.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\tema_2.dir/objects.a @CMakeFiles\tema_2.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\tema_2.dir/objects.a -Wl,--no-whole-archive  -o tema_2.exe -Wl,--out-implib,libtema_2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\tema_2.dir\linklibs.rsp
