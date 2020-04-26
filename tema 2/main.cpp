@@ -19,7 +19,7 @@ int main() {
 //    fout << *b;
 //    std :: cout<< a -> size();
 
-    std :: string cerere = a -> operator[](1);
+    std :: string cerere = a -> operator[](5);
     std :: cout << cerere;
     delete a;
 //    delete b;
