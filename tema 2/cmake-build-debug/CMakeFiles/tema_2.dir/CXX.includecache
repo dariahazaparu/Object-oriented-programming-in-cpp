@@ -6,12 +6,32 @@
 
 #IncludeRegexTransform: 
 
-D:/Daria/poo/tema 2/persoana.cpp
+D:/Daria/poo/tema 2/abonat.h
 persoana.h
 D:/Daria/poo/tema 2/persoana.h
+
+D:/Daria/poo/tema 2/abonat_skype.h
+abonat.h
+D:/Daria/poo/tema 2/abonat.h
+
+D:/Daria/poo/tema 2/agenda.h
+vector
+-
+abonat_skype.h
+D:/Daria/poo/tema 2/abonat_skype.h
+
+D:/Daria/poo/tema 2/main.cpp
 iostream
 -
-utility
+persoana.h
+D:/Daria/poo/tema 2/persoana.h
+abonat.h
+D:/Daria/poo/tema 2/abonat.h
+abonat_skype.h
+D:/Daria/poo/tema 2/abonat_skype.h
+agenda.h
+D:/Daria/poo/tema 2/agenda.h
+fstream
 -
 
 D:/Daria/poo/tema 2/persoana.h

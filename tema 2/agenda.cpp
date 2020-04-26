@@ -11,11 +11,10 @@ agenda::agenda(int n) {
 }
 
 agenda::agenda(const agenda &ag) {
-    int *n = new int (ag.AG.size());
-    for (int i = 0; i < *n; ++i) {
+    int n = ag.AG.size();
+    for (int i = 0; i < n; ++i) {
         AG.push_back(new abonat_skype(*ag.AG[i]));
     }
-    delete n;
 }
 
 std :: istream& operator >> (std :: istream &i, agenda &ag) {
@@ -58,19 +57,18 @@ std :: ostream& operator << (std :: ostream &o, agenda &ag) {
 
 agenda &agenda::operator=(agenda const &ag) {
     if (this == &ag) return *this;
-    int *n = new int (ag.AG.size());
-    for (int i = 0; i < *n; ++i) {
+    int n = ag.AG.size();
+    for (int i = 0; i < n; ++i) {
         abonat_skype *ab = new abonat_skype();
         *ab = *ag.AG[i];
         this -> AG.push_back(ab);
     }
-    delete n;
     return *this;
 }
 
 std :: string agenda::operator[](int index) {
     if (index >= AG.size()) {
-        std :: cout << "nu intra";
+        std :: cout << "index prea mare";
     }
     return AG[index] -> get_name();
 }

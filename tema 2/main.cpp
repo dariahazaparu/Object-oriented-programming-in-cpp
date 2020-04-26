@@ -18,8 +18,9 @@ int main() {
 //    b -> operator=(*a);
 //    fout << *b;
 //    std :: cout<< a -> size();
-
-    std :: string cerere = a -> operator[](1);
+    int index;
+    fin >> index;
+    std :: string cerere = (*a)[index];
     std :: cout << cerere;
     delete a;
 //    delete b;
