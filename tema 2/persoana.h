@@ -9,8 +9,8 @@
 
 class persoana {
 protected:
-    std :: string name;
     std :: string id;
+    std :: string name;
 public:
     explicit persoana(std :: string id = "", std :: string name = "");
     persoana(const persoana &a);
