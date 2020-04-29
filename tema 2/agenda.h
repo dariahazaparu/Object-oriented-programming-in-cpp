@@ -9,7 +9,7 @@
 #include "abonat_skype.h"
 
 class agenda {
-    std :: vector <abonat_skype*> AG;
+    std :: vector <persoana*> AG;
 public:
 
     explicit agenda(int n = 0);
