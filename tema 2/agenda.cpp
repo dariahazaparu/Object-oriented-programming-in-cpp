@@ -13,7 +13,7 @@ agenda::agenda(int n) {
 agenda::agenda(const agenda &ag) {
     int n = ag.AG.size();
     for (int i = 0; i < n; ++i) {
-        AG.push_back(new abonat_skype(*ag.AG[i]));
+        AG.push_back(new persoana(*ag.AG[i]));
     }
 }
 
@@ -26,13 +26,13 @@ std :: istream& operator >> (std :: istream &i, agenda &ag) {
         if (t == 0) {
             persoana *ab = new abonat_skype();
             i >> *ab;
-            ag.AG.push_back(dynamic_cast<abonat_skype *>(ab));
+            ag.AG.push_back(ab);
 //            std :: cout << *ag.AG[j];
         } else if (t == 1) {
             abonat *ab = new abonat_skype();
             i >> *ab;
 //            std :: cout << ab;
-            ag.AG.push_back(dynamic_cast<abonat_skype *>(ab));
+            ag.AG.push_back(ab);
 //            std :: cout << *ag.AG[j];
         } else if (t == 2) {
             abonat_skype *ab = new abonat_skype();
@@ -59,14 +59,14 @@ agenda &agenda::operator=(agenda const &ag) {
     if (this == &ag) return *this;
     int n = ag.AG.size();
     for (int i = 0; i < n; ++i) {
-        abonat_skype *ab = new abonat_skype();
+        persoana *ab = new persoana();
         *ab = *ag.AG[i];
         this -> AG.push_back(ab);
     }
     return *this;
 }
 
-std :: string agenda::operator[](int index) {
+std :: string agenda::operator[](long unsigned int &index) {
     if (index >= AG.size()) {
         std :: cout << "index prea mare";
     }
