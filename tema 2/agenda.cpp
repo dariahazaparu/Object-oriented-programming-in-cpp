@@ -70,12 +70,16 @@ std :: string agenda::operator[](int index) {
     if (index >= AG.size()) {
         std :: cout << "index prea mare";
     }
-    return AG[index] -> get_name();
+    return AG[index - 1] -> get_name();
 }
 
 int agenda::size() {
     return AG.size();
 }
 
-agenda::~agenda() = default;
+agenda::~agenda() {
+    for (auto &i : AG ) {
+        delete i;
+    }
+}
 
