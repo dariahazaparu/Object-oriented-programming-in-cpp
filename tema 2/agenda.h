@@ -18,7 +18,7 @@ public:
     friend std :: istream& operator >> (std :: istream &i , agenda &ag);
     friend std :: ostream& operator << (std :: ostream &o, agenda &ag);
     agenda& operator = (agenda const &ag);
-    std :: string operator [] (int index);
+    std :: string operator [] (long unsigned int &index);
     virtual ~agenda();
 
 };
