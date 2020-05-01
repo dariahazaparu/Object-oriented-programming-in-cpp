@@ -10,18 +10,6 @@ CMakeFiles/tema_2.dir/abonat_skype.cpp.obj: ../abonat_skype.cpp
 CMakeFiles/tema_2.dir/abonat_skype.cpp.obj: ../abonat_skype.h
 CMakeFiles/tema_2.dir/abonat_skype.cpp.obj: ../persoana.h
 
-CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.obj: ../abonat.h
-CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.obj: ../abonat_skype.h
-CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.obj: ../abonat_skype_extern.cpp
-CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.obj: ../abonat_skype_extern.h
-CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.obj: ../persoana.h
-
-CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.obj: ../abonat.h
-CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.obj: ../abonat_skype.h
-CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.obj: ../abonat_skype_romania.cpp
-CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.obj: ../abonat_skype_romania.h
-CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.obj: ../persoana.h
-
 CMakeFiles/tema_2.dir/agenda.cpp.obj: ../abonat.h
 CMakeFiles/tema_2.dir/agenda.cpp.obj: ../abonat_skype.h
 CMakeFiles/tema_2.dir/agenda.cpp.obj: ../agenda.cpp

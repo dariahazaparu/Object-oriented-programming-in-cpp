@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Daria\poo\tema 2"
+CMAKE_SOURCE_DIR = "D:\Daria\poo\oop\tema 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Daria\poo\tema 2\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\Daria\poo\oop\tema 2\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Daria\poo\tema 2\cmake-build-debug\CMakeFiles" "D:\Daria\poo\tema 2\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Daria\poo\oop\tema 2\cmake-build-debug\CMakeFiles" "D:\Daria\poo\oop\tema 2\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Daria\poo\tema 2\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Daria\poo\oop\tema 2\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -175,60 +175,6 @@ abonat_skype.s: abonat_skype.cpp.s
 abonat_skype.cpp.s:
 	$(MAKE) -f CMakeFiles\tema_2.dir\build.make CMakeFiles/tema_2.dir/abonat_skype.cpp.s
 .PHONY : abonat_skype.cpp.s
-
-abonat_skype_extern.obj: abonat_skype_extern.cpp.obj
-
-.PHONY : abonat_skype_extern.obj
-
-# target to build an object file
-abonat_skype_extern.cpp.obj:
-	$(MAKE) -f CMakeFiles\tema_2.dir\build.make CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.obj
-.PHONY : abonat_skype_extern.cpp.obj
-
-abonat_skype_extern.i: abonat_skype_extern.cpp.i
-
-.PHONY : abonat_skype_extern.i
-
-# target to preprocess a source file
-abonat_skype_extern.cpp.i:
-	$(MAKE) -f CMakeFiles\tema_2.dir\build.make CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.i
-.PHONY : abonat_skype_extern.cpp.i
-
-abonat_skype_extern.s: abonat_skype_extern.cpp.s
-
-.PHONY : abonat_skype_extern.s
-
-# target to generate assembly for a file
-abonat_skype_extern.cpp.s:
-	$(MAKE) -f CMakeFiles\tema_2.dir\build.make CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.s
-.PHONY : abonat_skype_extern.cpp.s
-
-abonat_skype_romania.obj: abonat_skype_romania.cpp.obj
-
-.PHONY : abonat_skype_romania.obj
-
-# target to build an object file
-abonat_skype_romania.cpp.obj:
-	$(MAKE) -f CMakeFiles\tema_2.dir\build.make CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.obj
-.PHONY : abonat_skype_romania.cpp.obj
-
-abonat_skype_romania.i: abonat_skype_romania.cpp.i
-
-.PHONY : abonat_skype_romania.i
-
-# target to preprocess a source file
-abonat_skype_romania.cpp.i:
-	$(MAKE) -f CMakeFiles\tema_2.dir\build.make CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.i
-.PHONY : abonat_skype_romania.cpp.i
-
-abonat_skype_romania.s: abonat_skype_romania.cpp.s
-
-.PHONY : abonat_skype_romania.s
-
-# target to generate assembly for a file
-abonat_skype_romania.cpp.s:
-	$(MAKE) -f CMakeFiles\tema_2.dir\build.make CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.s
-.PHONY : abonat_skype_romania.cpp.s
 
 agenda.obj: agenda.cpp.obj
 
@@ -326,12 +272,6 @@ help:
 	@echo ... abonat_skype.obj
 	@echo ... abonat_skype.i
 	@echo ... abonat_skype.s
-	@echo ... abonat_skype_extern.obj
-	@echo ... abonat_skype_extern.i
-	@echo ... abonat_skype_extern.s
-	@echo ... abonat_skype_romania.obj
-	@echo ... abonat_skype_romania.i
-	@echo ... abonat_skype_romania.s
 	@echo ... agenda.obj
 	@echo ... agenda.i
 	@echo ... agenda.s

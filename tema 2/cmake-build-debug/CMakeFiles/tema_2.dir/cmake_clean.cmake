@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tema_2.dir/abonat.cpp.obj"
   "CMakeFiles/tema_2.dir/abonat_skype.cpp.obj"
-  "CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.obj"
-  "CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.obj"
   "CMakeFiles/tema_2.dir/agenda.cpp.obj"
   "CMakeFiles/tema_2.dir/main.cpp.obj"
   "CMakeFiles/tema_2.dir/persoana.cpp.obj"

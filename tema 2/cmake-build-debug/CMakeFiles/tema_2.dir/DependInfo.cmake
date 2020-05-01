@@ -4,13 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Daria/poo/tema 2/abonat.cpp" "D:/Daria/poo/tema 2/cmake-build-debug/CMakeFiles/tema_2.dir/abonat.cpp.obj"
-  "D:/Daria/poo/tema 2/abonat_skype.cpp" "D:/Daria/poo/tema 2/cmake-build-debug/CMakeFiles/tema_2.dir/abonat_skype.cpp.obj"
-  "D:/Daria/poo/tema 2/abonat_skype_extern.cpp" "D:/Daria/poo/tema 2/cmake-build-debug/CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.obj"
-  "D:/Daria/poo/tema 2/abonat_skype_romania.cpp" "D:/Daria/poo/tema 2/cmake-build-debug/CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.obj"
-  "D:/Daria/poo/tema 2/agenda.cpp" "D:/Daria/poo/tema 2/cmake-build-debug/CMakeFiles/tema_2.dir/agenda.cpp.obj"
-  "D:/Daria/poo/tema 2/main.cpp" "D:/Daria/poo/tema 2/cmake-build-debug/CMakeFiles/tema_2.dir/main.cpp.obj"
-  "D:/Daria/poo/tema 2/persoana.cpp" "D:/Daria/poo/tema 2/cmake-build-debug/CMakeFiles/tema_2.dir/persoana.cpp.obj"
+  "D:/Daria/poo/oop/tema 2/abonat.cpp" "D:/Daria/poo/oop/tema 2/cmake-build-debug/CMakeFiles/tema_2.dir/abonat.cpp.obj"
+  "D:/Daria/poo/oop/tema 2/abonat_skype.cpp" "D:/Daria/poo/oop/tema 2/cmake-build-debug/CMakeFiles/tema_2.dir/abonat_skype.cpp.obj"
+  "D:/Daria/poo/oop/tema 2/agenda.cpp" "D:/Daria/poo/oop/tema 2/cmake-build-debug/CMakeFiles/tema_2.dir/agenda.cpp.obj"
+  "D:/Daria/poo/oop/tema 2/main.cpp" "D:/Daria/poo/oop/tema 2/cmake-build-debug/CMakeFiles/tema_2.dir/main.cpp.obj"
+  "D:/Daria/poo/oop/tema 2/persoana.cpp" "D:/Daria/poo/oop/tema 2/cmake-build-debug/CMakeFiles/tema_2.dir/persoana.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

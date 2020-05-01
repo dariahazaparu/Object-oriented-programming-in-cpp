@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Daria\poo\tema 2"
+CMAKE_SOURCE_DIR = "D:\Daria\poo\oop\tema 2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Daria\poo\tema 2\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\Daria\poo\oop\tema 2\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tema_2.dir/depend.make
@@ -58,94 +58,68 @@ include CMakeFiles/tema_2.dir/flags.make
 
 CMakeFiles/tema_2.dir/main.cpp.obj: CMakeFiles/tema_2.dir/flags.make
 CMakeFiles/tema_2.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Daria\poo\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tema_2.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tema_2.dir\main.cpp.obj -c "D:\Daria\poo\tema 2\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Daria\poo\oop\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tema_2.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tema_2.dir\main.cpp.obj -c "D:\Daria\poo\oop\tema 2\main.cpp"
 
 CMakeFiles/tema_2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tema_2.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Daria\poo\tema 2\main.cpp" > CMakeFiles\tema_2.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Daria\poo\oop\tema 2\main.cpp" > CMakeFiles\tema_2.dir\main.cpp.i
 
 CMakeFiles/tema_2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tema_2.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Daria\poo\tema 2\main.cpp" -o CMakeFiles\tema_2.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Daria\poo\oop\tema 2\main.cpp" -o CMakeFiles\tema_2.dir\main.cpp.s
 
 CMakeFiles/tema_2.dir/persoana.cpp.obj: CMakeFiles/tema_2.dir/flags.make
 CMakeFiles/tema_2.dir/persoana.cpp.obj: ../persoana.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Daria\poo\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tema_2.dir/persoana.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tema_2.dir\persoana.cpp.obj -c "D:\Daria\poo\tema 2\persoana.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Daria\poo\oop\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tema_2.dir/persoana.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tema_2.dir\persoana.cpp.obj -c "D:\Daria\poo\oop\tema 2\persoana.cpp"
 
 CMakeFiles/tema_2.dir/persoana.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tema_2.dir/persoana.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Daria\poo\tema 2\persoana.cpp" > CMakeFiles\tema_2.dir\persoana.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Daria\poo\oop\tema 2\persoana.cpp" > CMakeFiles\tema_2.dir\persoana.cpp.i
 
 CMakeFiles/tema_2.dir/persoana.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tema_2.dir/persoana.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Daria\poo\tema 2\persoana.cpp" -o CMakeFiles\tema_2.dir\persoana.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Daria\poo\oop\tema 2\persoana.cpp" -o CMakeFiles\tema_2.dir\persoana.cpp.s
 
 CMakeFiles/tema_2.dir/abonat.cpp.obj: CMakeFiles/tema_2.dir/flags.make
 CMakeFiles/tema_2.dir/abonat.cpp.obj: ../abonat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Daria\poo\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tema_2.dir/abonat.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tema_2.dir\abonat.cpp.obj -c "D:\Daria\poo\tema 2\abonat.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Daria\poo\oop\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tema_2.dir/abonat.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tema_2.dir\abonat.cpp.obj -c "D:\Daria\poo\oop\tema 2\abonat.cpp"
 
 CMakeFiles/tema_2.dir/abonat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tema_2.dir/abonat.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Daria\poo\tema 2\abonat.cpp" > CMakeFiles\tema_2.dir\abonat.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Daria\poo\oop\tema 2\abonat.cpp" > CMakeFiles\tema_2.dir\abonat.cpp.i
 
 CMakeFiles/tema_2.dir/abonat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tema_2.dir/abonat.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Daria\poo\tema 2\abonat.cpp" -o CMakeFiles\tema_2.dir\abonat.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Daria\poo\oop\tema 2\abonat.cpp" -o CMakeFiles\tema_2.dir\abonat.cpp.s
 
 CMakeFiles/tema_2.dir/abonat_skype.cpp.obj: CMakeFiles/tema_2.dir/flags.make
 CMakeFiles/tema_2.dir/abonat_skype.cpp.obj: ../abonat_skype.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Daria\poo\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tema_2.dir/abonat_skype.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tema_2.dir\abonat_skype.cpp.obj -c "D:\Daria\poo\tema 2\abonat_skype.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Daria\poo\oop\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tema_2.dir/abonat_skype.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tema_2.dir\abonat_skype.cpp.obj -c "D:\Daria\poo\oop\tema 2\abonat_skype.cpp"
 
 CMakeFiles/tema_2.dir/abonat_skype.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tema_2.dir/abonat_skype.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Daria\poo\tema 2\abonat_skype.cpp" > CMakeFiles\tema_2.dir\abonat_skype.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Daria\poo\oop\tema 2\abonat_skype.cpp" > CMakeFiles\tema_2.dir\abonat_skype.cpp.i
 
 CMakeFiles/tema_2.dir/abonat_skype.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tema_2.dir/abonat_skype.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Daria\poo\tema 2\abonat_skype.cpp" -o CMakeFiles\tema_2.dir\abonat_skype.cpp.s
-
-CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.obj: CMakeFiles/tema_2.dir/flags.make
-CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.obj: ../abonat_skype_romania.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Daria\poo\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tema_2.dir\abonat_skype_romania.cpp.obj -c "D:\Daria\poo\tema 2\abonat_skype_romania.cpp"
-
-CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Daria\poo\tema 2\abonat_skype_romania.cpp" > CMakeFiles\tema_2.dir\abonat_skype_romania.cpp.i
-
-CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Daria\poo\tema 2\abonat_skype_romania.cpp" -o CMakeFiles\tema_2.dir\abonat_skype_romania.cpp.s
-
-CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.obj: CMakeFiles/tema_2.dir/flags.make
-CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.obj: ../abonat_skype_extern.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Daria\poo\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tema_2.dir\abonat_skype_extern.cpp.obj -c "D:\Daria\poo\tema 2\abonat_skype_extern.cpp"
-
-CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Daria\poo\tema 2\abonat_skype_extern.cpp" > CMakeFiles\tema_2.dir\abonat_skype_extern.cpp.i
-
-CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Daria\poo\tema 2\abonat_skype_extern.cpp" -o CMakeFiles\tema_2.dir\abonat_skype_extern.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Daria\poo\oop\tema 2\abonat_skype.cpp" -o CMakeFiles\tema_2.dir\abonat_skype.cpp.s
 
 CMakeFiles/tema_2.dir/agenda.cpp.obj: CMakeFiles/tema_2.dir/flags.make
 CMakeFiles/tema_2.dir/agenda.cpp.obj: ../agenda.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Daria\poo\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tema_2.dir/agenda.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tema_2.dir\agenda.cpp.obj -c "D:\Daria\poo\tema 2\agenda.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Daria\poo\oop\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tema_2.dir/agenda.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\tema_2.dir\agenda.cpp.obj -c "D:\Daria\poo\oop\tema 2\agenda.cpp"
 
 CMakeFiles/tema_2.dir/agenda.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tema_2.dir/agenda.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Daria\poo\tema 2\agenda.cpp" > CMakeFiles\tema_2.dir\agenda.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Daria\poo\oop\tema 2\agenda.cpp" > CMakeFiles\tema_2.dir\agenda.cpp.i
 
 CMakeFiles/tema_2.dir/agenda.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tema_2.dir/agenda.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Daria\poo\tema 2\agenda.cpp" -o CMakeFiles\tema_2.dir\agenda.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Daria\poo\oop\tema 2\agenda.cpp" -o CMakeFiles\tema_2.dir\agenda.cpp.s
 
 # Object files for target tema_2
 tema_2_OBJECTS = \
@@ -153,8 +127,6 @@ tema_2_OBJECTS = \
 "CMakeFiles/tema_2.dir/persoana.cpp.obj" \
 "CMakeFiles/tema_2.dir/abonat.cpp.obj" \
 "CMakeFiles/tema_2.dir/abonat_skype.cpp.obj" \
-"CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.obj" \
-"CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.obj" \
 "CMakeFiles/tema_2.dir/agenda.cpp.obj"
 
 # External object files for target tema_2
@@ -164,14 +136,12 @@ tema_2.exe: CMakeFiles/tema_2.dir/main.cpp.obj
 tema_2.exe: CMakeFiles/tema_2.dir/persoana.cpp.obj
 tema_2.exe: CMakeFiles/tema_2.dir/abonat.cpp.obj
 tema_2.exe: CMakeFiles/tema_2.dir/abonat_skype.cpp.obj
-tema_2.exe: CMakeFiles/tema_2.dir/abonat_skype_romania.cpp.obj
-tema_2.exe: CMakeFiles/tema_2.dir/abonat_skype_extern.cpp.obj
 tema_2.exe: CMakeFiles/tema_2.dir/agenda.cpp.obj
 tema_2.exe: CMakeFiles/tema_2.dir/build.make
 tema_2.exe: CMakeFiles/tema_2.dir/linklibs.rsp
 tema_2.exe: CMakeFiles/tema_2.dir/objects1.rsp
 tema_2.exe: CMakeFiles/tema_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Daria\poo\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable tema_2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Daria\poo\oop\tema 2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable tema_2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tema_2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -184,6 +154,6 @@ CMakeFiles/tema_2.dir/clean:
 .PHONY : CMakeFiles/tema_2.dir/clean
 
 CMakeFiles/tema_2.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Daria\poo\tema 2" "D:\Daria\poo\tema 2" "D:\Daria\poo\tema 2\cmake-build-debug" "D:\Daria\poo\tema 2\cmake-build-debug" "D:\Daria\poo\tema 2\cmake-build-debug\CMakeFiles\tema_2.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\Daria\poo\oop\tema 2" "D:\Daria\poo\oop\tema 2" "D:\Daria\poo\oop\tema 2\cmake-build-debug" "D:\Daria\poo\oop\tema 2\cmake-build-debug" "D:\Daria\poo\oop\tema 2\cmake-build-debug\CMakeFiles\tema_2.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/tema_2.dir/depend
 
