@@ -22,7 +22,7 @@ int main() {
     fin >> index;
     std :: string cerere = (*a)[index];
 //    std :: string cerere = a -> operator[](index);
-    std :: cout << "Numele cautat este " << cerere;
+    std :: cout << "Numele cautat este " << cerere << ".";
     delete a;
 //    delete b;
 
