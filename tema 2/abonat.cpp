@@ -29,10 +29,11 @@ std :: istream& operator >> (std :: istream &i, abonat &a) {
     return i;
 }
 
-std :: ostream& operator << (std :: ostream &o, abonat &a) {
-    o << "ID: " << a.id << '\n' << "Name: " << a.name << '\n' << "Telefon: " << a.tel << '\n';
+/*std :: ostream& operator << (std :: ostream &o, abonat &a) {
+//    o << "ID: " << a.id << '\n' << "Name: " << a.name << '\n' << "Telefon: " << a.tel << '\n';
+    a.print(o);
     return o;
-}
+}*/
 
 abonat &abonat::operator=(abonat const &a) {
     if (this == &a) return *this;
@@ -40,6 +41,11 @@ abonat &abonat::operator=(abonat const &a) {
     this -> name = a.name;
     this -> tel = a.tel;
     return *this;
+}
+
+void abonat::print(std :: ostream& o) {
+    persoana::print(o);
+    o << "Tel: " << tel << '\n';
 }
 
 abonat::~abonat() = default;

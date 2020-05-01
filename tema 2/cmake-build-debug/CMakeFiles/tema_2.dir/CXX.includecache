@@ -6,35 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/Daria/poo/oop/tema 2/abonat.cpp
-abonat.h
-D:/Daria/poo/oop/tema 2/abonat.h
-iostream
--
-utility
--
-
 D:/Daria/poo/oop/tema 2/abonat.h
 persoana.h
 D:/Daria/poo/oop/tema 2/persoana.h
 
-D:/Daria/poo/oop/tema 2/abonat_skype.cpp
-abonat_skype.h
-D:/Daria/poo/oop/tema 2/abonat_skype.h
-iostream
--
-utility
--
-
 D:/Daria/poo/oop/tema 2/abonat_skype.h
 abonat.h
 D:/Daria/poo/oop/tema 2/abonat.h
-
-D:/Daria/poo/oop/tema 2/agenda.cpp
-agenda.h
-D:/Daria/poo/oop/tema 2/agenda.h
-iostream
--
 
 D:/Daria/poo/oop/tema 2/agenda.h
 vector
@@ -54,14 +32,6 @@ D:/Daria/poo/oop/tema 2/abonat_skype.h
 agenda.h
 D:/Daria/poo/oop/tema 2/agenda.h
 fstream
--
-
-D:/Daria/poo/oop/tema 2/persoana.cpp
-persoana.h
-D:/Daria/poo/oop/tema 2/persoana.h
-iostream
--
-utility
 -
 
 D:/Daria/poo/oop/tema 2/persoana.h

@@ -11,7 +11,33 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ed2071-6057-4c18-814a-24a54bcfc65a" name="Default Changelist" comment="" />
+    <list default="true" id="75ed2071-6057-4c18-814a-24a54bcfc65a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema 3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema 3/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tema 3/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abonat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abonat.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abonat.h" beforeDir="false" afterPath="$PROJECT_DIR$/abonat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abonat_skype.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/abonat_skype.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abonat_skype.h" beforeDir="false" afterPath="$PROJECT_DIR$/abonat_skype.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/agenda.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda.h" beforeDir="false" afterPath="$PROJECT_DIR$/agenda.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/abonat.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/abonat.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/abonat_skype.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/abonat_skype.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/agenda.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/agenda.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/persoana.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tema_2.dir/persoana.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/fisier.in" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/fisier.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/fisier.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/fisier.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tema_2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tema_2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persoana.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/persoana.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persoana.h" beforeDir="false" afterPath="$PROJECT_DIR$/persoana.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +51,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1ZqcHL7QSEszh8mpqjrqzuIPI8J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,6 +59,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -72,41 +100,60 @@
       <workItem from="1587575771038" duration="4267000" />
       <workItem from="1587748892431" duration="625000" />
       <workItem from="1587917216059" duration="5898000" />
+      <workItem from="1588353037199" duration="247000" />
+      <workItem from="1588355359393" duration="8433000" />
+      <workItem from="1588370907375" duration="3358000" />
     </task>
+    <task id="LOCAL-00001" summary="svd">
+      <created>1588353168206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588353168206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="svd" />
+    <option name="LAST_COMMIT_MESSAGE" value="svd" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="465" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1587227758379">
+    <state x="465" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1588373904401">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="465" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587227758379" />
+    <state x="465" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1588373904401" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585573354937">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1585573354937" />
-    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1587152427627">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1588353164270">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587152427627" />
-    <state width="1323" height="168" key="GridCell.Tab.0.bottom" timestamp="1587923764190">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1588353164270" />
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1588353272464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587923764190" />
-    <state width="1323" height="168" key="GridCell.Tab.0.center" timestamp="1587923764189">
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588353272464" />
+    <state width="1323" height="174" key="GridCell.Tab.0.bottom" timestamp="1588374492348">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587923764189" />
-    <state width="1323" height="168" key="GridCell.Tab.0.left" timestamp="1587923764189">
+    <state width="1323" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588374492348" />
+    <state width="1323" height="174" key="GridCell.Tab.0.center" timestamp="1588374492348">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587923764189" />
-    <state width="1323" height="168" key="GridCell.Tab.0.right" timestamp="1587923764190">
+    <state width="1323" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588374492348" />
+    <state width="1323" height="174" key="GridCell.Tab.0.left" timestamp="1588374492347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587923764190" />
+    <state width="1323" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588374492347" />
+    <state width="1323" height="174" key="GridCell.Tab.0.right" timestamp="1588374492348">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588374492348" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1587231007962">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -127,10 +174,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587214553357" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587917222908">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1588353175126">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587917222908" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588353175126" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1588370907357">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588370907357" />
     <state x="379" y="0" width="607" height="728" key="find.popup" timestamp="1587154084575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -143,13 +194,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="766" y="7" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1587215905846" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1587583026039">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1588363194930">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587583026039" />
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587146463126">
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1588363194930" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588373560724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587146463126" />
+    <state x="687" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1588373560724" />
   </component>
 </project>

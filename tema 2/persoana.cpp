@@ -10,15 +10,10 @@ persoana::persoana(std :: string id, std :: string name) : id(std::move(id)), na
 //    std :: cout<<"constr p\n";
 }
 
-persoana::persoana(const persoana &a)
-        : id(a.id), name(a.name) {}
+persoana::persoana(const persoana &a) = default;
 
 const std :: string &persoana::get_id() const {
     return id;
-}
-
-void persoana::set_id(std :: string m_id) {
-    id = std::move(m_id);
 }
 
 const std :: string &persoana::get_name() const {
@@ -35,8 +30,8 @@ std :: istream& operator >> (std :: istream &i, persoana &a) {
     return i;
 }
 
-std :: ostream& operator << (std :: ostream &o, const persoana &a) {
-    o << "ID:" << a.id << '\n' << "Name:" << a.name << '\n';
+std :: ostream& operator << (std :: ostream &o, persoana &a) {
+    a.print(o);
     return o;
 }
 
@@ -45,6 +40,10 @@ persoana &persoana::operator=(persoana const &a) {
     this -> id = a.id;
     this -> name = a.name;
     return *this;
+}
+
+void persoana::print(std :: ostream& o) {
+    o << "ID: " << id << '\n' << "Name: " << name << '\n';
 }
 
 persoana::~persoana() = default;

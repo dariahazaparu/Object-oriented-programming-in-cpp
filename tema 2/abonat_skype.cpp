@@ -30,11 +30,13 @@ std :: istream& operator >> (std :: istream &i, abonat_skype &a) {
     return i;
 }
 
-std :: ostream& operator << (std :: ostream &o, abonat_skype &a) {
-    o << "ID: " << a.id << '\n' << "Name: " << a.name << '\n' << "Telefon: " << a.tel
-    << '\n' << "ID Skype: " << a.skype_id << '\n';
+/*std :: ostream& operator << (std :: ostream &o, abonat_skype &a) {
+//    o << "ID: " << a.id << '\n' << "Name: " << a.name << '\n' << "Telefon: " << a.tel
+//    << '\n' << "ID Skype: " << a.skype_id << '\n';
+    a.print(o);
     return o;
-}
+}*/
+
 
 abonat_skype &abonat_skype::operator=(abonat_skype const &a) {
     if (this == &a) return *this;
@@ -43,6 +45,11 @@ abonat_skype &abonat_skype::operator=(abonat_skype const &a) {
     this -> tel = a.tel;
     this -> skype_id = a.skype_id;
     return *this;
+}
+
+void abonat_skype::print(std :: ostream& o) {
+    abonat::print(o);
+    o << "Skype_id: " << skype_id << '\n';
 }
 
 abonat_skype::~abonat_skype() = default;

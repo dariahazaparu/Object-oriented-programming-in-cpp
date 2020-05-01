@@ -16,7 +16,8 @@ public:
     const std :: string &get_skype_id() const;
     void set_skype_id(std :: string m_skype_id);
     friend std :: istream& operator >> (std :: istream &i, abonat_skype &a);
-    friend std :: ostream& operator << (std :: ostream &o, abonat_skype &a);
+//    friend std :: ostream& operator << (std :: ostream &o, abonat_skype &a);
+    virtual void print (std :: ostream& o);
     abonat_skype& operator = (abonat_skype const &a);
     virtual ~abonat_skype() override;
 };

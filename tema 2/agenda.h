@@ -19,6 +19,7 @@ public:
     friend std :: ostream& operator << (std :: ostream &o, agenda &ag);
     agenda& operator = (agenda const &ag);
     std :: string operator [] (long unsigned int &index);
+    persoana* operator [] (std :: string nume_de_cautat);
     virtual ~agenda();
 
 };

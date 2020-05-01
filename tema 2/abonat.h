@@ -16,7 +16,8 @@ public:
     const std :: string &get_tel() const;
     void set_tel(std :: string m_tel);
     friend std :: istream& operator >> (std :: istream &i, abonat &a);
-    friend std :: ostream& operator << (std :: ostream &o, abonat &a);
+//    friend std :: ostream& operator << (std :: ostream &o, abonat &a);
+    virtual void print(std :: ostream& o);
     abonat& operator = (abonat const &a);
     virtual ~abonat() override;
 };
