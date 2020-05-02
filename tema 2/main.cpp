@@ -22,6 +22,16 @@ int main() {
 //    Agenda_3 = Agenda_2;
 //    fout << Agenda_3;
 
+    abonat ab;
+    abonat ac;
+    std :: string tel = "01";
+
+    ab.set_tel("07");
+    ac.set_tel(tel);
+
+    std:: cout << ab << ac << tel;
+
+
     long unsigned int index;
     fin >> index;
     std :: string cerere = Agenda_1[index];

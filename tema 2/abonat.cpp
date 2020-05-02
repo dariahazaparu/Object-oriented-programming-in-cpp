@@ -20,6 +20,12 @@ const std :: string &abonat::get_tel() const {
 
 void abonat::set_tel(std :: string m_tel) {
     tel = std::move(m_tel);
+    // initial mi l-a sugerat clion sa-l folosesc
+    // am inteles ca e de fapt o metoda prin care se evita o copiere inutila,
+    // adica paramentru primit este transformat intr-o referinta rvalue si se evita copierea lui in interiorul functiei.
+    // rvalue adica o variabila care nu se poate modifica cu o alta valoare, ea exista pur si simplu, cum e 7, sau care e temporara, cum e i+1
+    // praaactic parametrul primit de std::move se transforma intr-un rvalue care este de fapt un cast catre &&
+    // si nu se mai copiaza
 }
 
 std :: istream& operator >> (std :: istream &i, abonat &a) {
