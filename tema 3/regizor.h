@@ -5,7 +5,6 @@
 #ifndef TEMA_3_REGIZOR_H
 #define TEMA_3_REGIZOR_H
 
-
 #include "persoana.h"
 
 class regizor : public persoana {
@@ -15,9 +14,11 @@ public:
     explicit regizor(std :: string CNP = "", std :: string nume = "", std :: string nume_film = "", int nr_filme = 0);
     void citire(std :: istream &i) override;
     void print(std :: ostream &o) override;
+
+    static int getSumaFixa();
+
     virtual ~regizor();
 
 };
-
 
 #endif //TEMA_3_REGIZOR_H

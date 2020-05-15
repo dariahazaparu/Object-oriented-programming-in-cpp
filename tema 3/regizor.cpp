@@ -7,8 +7,10 @@
 #include <utility>
 #include <iostream>
 
+int regizor :: suma_fixa = 5000;
+
 regizor::regizor(std :: string CNP, std :: string nume, std :: string nume_film, int nr_filme)
-    : persoana(std::move(CNP), std::move(nume), std::move(nume_film)), nr_filme(nr_filme) {}
+        : persoana(std::move(CNP), std::move(nume), std::move(nume_film)), nr_filme(nr_filme) {}
 
 void regizor::citire(std :: istream &i) {
     persoana::citire(i);
@@ -17,7 +19,11 @@ void regizor::citire(std :: istream &i) {
 
 void regizor::print(std::ostream &o) {
     persoana::print(o);
-    o << nr_filme;
+    o << "Filme regizate: " << nr_filme << '\n';
 }
 
-regizor::~regizor() = default;
+int regizor::getSumaFixa() {
+    return suma_fixa;
+}
+
+regizor::~regizor() {};

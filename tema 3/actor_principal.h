@@ -14,8 +14,10 @@ public:
     explicit actor_principal(std :: string CNP = "", std :: string nume = "", std :: string nume_film = "", int nr_filme = 0, double suma = 0);
     void citire ( std :: istream& i) override;
     void print (std :: ostream& o) override;
+
+    double getSumaPlusBonus() const;
+
     virtual ~actor_principal();
 };
-
 
 #endif //TEMA_3_ACTOR_PRINCIPAL_H

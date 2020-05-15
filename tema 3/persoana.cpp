@@ -6,7 +6,7 @@
 #include "persoana.h"
 
 persoana::persoana(std :: string CNP, std :: string nume, std :: string nume_film)
-    : CNP(CNP), nume(nume), nume_film(nume_film) {}
+        : CNP(CNP), nume(nume), nume_film(nume_film) {}
 
 std :: istream & operator >> (std :: istream& i, persoana& a) {
     a.citire(i);
@@ -23,8 +23,14 @@ std :: ostream& operator << (std :: ostream& o, persoana& a) {
 }
 
 void persoana::print(std :: ostream& o) {
-    o << CNP << " " << nume << " " << nume_film << " ";
+    o << "CNP: " << CNP << '\n';
+    o << "Nume: " <<  nume << '\n';
+    o << "Nume film: " << nume_film << '\n';
 }
 
-persoana::~persoana() = default;
+const std::string &persoana::getNumeFilm() const {
+    return nume_film;
+}
+
+persoana::~persoana() {}
 

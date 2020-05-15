@@ -5,7 +5,6 @@
 #ifndef TEMA_3_TEHNIC_H
 #define TEMA_3_TEHNIC_H
 
-
 #include "persoana.h"
 
 class tehnic : public persoana {

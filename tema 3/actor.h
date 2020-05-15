@@ -11,15 +11,16 @@
 class actor : public persoana {
 protected:
     int nr_filme;
-    double suma;
+    int suma;
 
 public:
     explicit actor(std :: string CNP = "", std :: string nume = "", std :: string nume_film = "", int nr_filme = 0, double suma = 0);
     void citire(std :: istream& i) override;
     void print(std :: ostream& o) override;
+
+    int getSuma() const;
+
     virtual ~actor();
-
-
 };
 
 

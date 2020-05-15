@@ -21,8 +21,9 @@ public:
     virtual void citire(std :: istream &i);
     friend std :: ostream& operator << (std :: ostream& o, persoana& a);
     virtual void print(std :: ostream& o);
+
+    const std::string &getNumeFilm() const;
     virtual ~persoana();
 };
-
 
 #endif //TEMA_3_PERSOANA_H

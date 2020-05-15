@@ -5,7 +5,6 @@
 #ifndef TEMA_3_FILM_H
 #define TEMA_3_FILM_H
 
-
 #include <string>
 #include <vector>
 #include "persoana.h"
@@ -17,10 +16,12 @@ class film {
     std :: vector <persoana*> persoane_part;
 
 public:
-    explicit film(std :: vector<persoana*> persoane_part, std :: string nume_film = "", int durata = 0, std :: string tip = "");
+    const std::vector<persoana *> &getPersoanePart() const;
+
+    explicit film(std :: vector<persoana*> persoane, std :: string nume_film = "", int durata = 0, std :: string tip = "");
     friend std :: istream& operator >> (std :: istream &i, film& f);
     void citire(std :: istream& i);
-    friend std :: ostream& operator << (std :: ostream& o, film &f);
+    friend std :: ostream& operator << (std :: ostream& o, film& f);
     void afisare(std :: ostream &o);
     ~film();
 };
