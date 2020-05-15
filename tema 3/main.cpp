@@ -68,6 +68,8 @@ int main() {
     }
     fout << h;
 
+    // pana aici merge perfect :D
+
 //    firma_distributie<> F0;
 //    F0.insert(f1);
 //    std :: cout << firma_distributie<>::getNrPersoane() << " ";
