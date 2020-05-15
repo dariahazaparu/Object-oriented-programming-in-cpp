@@ -70,9 +70,9 @@ int main() {
 
     // pana aici merge perfect :D
 
-//    firma_distributie<> F0;
-//    F0.insert(f1);
-//    std :: cout << firma_distributie<>::getNrPersoane() << " ";
+    firma_distributie<> F0;
+    F0.insert(f1);
+    std :: cout << F0.getNrPersoane() << " ";
 //
 //    firma_distributie<actor_principal> F;
 //    F.insert(f0);
