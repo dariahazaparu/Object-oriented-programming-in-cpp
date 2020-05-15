@@ -23,7 +23,7 @@ contracte::~contracte() {
 contracte::contracte() =default;
 
 std :: ostream& operator << (std :: ostream& o, contracte& c) {
-    o << "Toate contractele:\n\n";
+    o << "--------Toate contractele:\n\n";
     for( auto& i: c.mapa) {
         persoana *a = std :: get<0>(i);
         o << *a;
@@ -33,7 +33,7 @@ std :: ostream& operator << (std :: ostream& o, contracte& c) {
     return o;
 }
 
-void contracte::inserting(persoana *pers, int suma_standard) {
+void contracte::insert(persoana *pers, int suma_standard) {
     std::tuple<persoana *, std :: string, int> contr;
     if (typeid(*pers) == typeid(regizor)) {
         suma_standard = regizor :: getSumaFixa();

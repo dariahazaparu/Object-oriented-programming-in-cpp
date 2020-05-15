@@ -42,9 +42,9 @@ public:
         return nr_actori;
     }
 
-    std :: string operator[](int index) {
-        return rola_filme[index-1]->getNumeFilm();
-    }
+//    std :: string operator[](int index) {
+//        return rola_filme[index-1]->getNumeFilm();
+//    }
 
     ~firma_distributie() {
         for (auto &film : rola_filme)

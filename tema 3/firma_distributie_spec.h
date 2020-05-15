@@ -31,6 +31,8 @@ public:
             nr_persoane++;
             if (typeid(*persoana).name() == typeid(actor).name() || typeid(*persoana).name() == typeid(actor_principal).name())
                 nr_actori++;
+            if (typeid(*persoana).name() == typeid(actor_principal).name())
+                nr_actori_princ++;
         }
     }
 
@@ -45,9 +47,9 @@ public:
         return nr_actori_princ;
     }
 
-    std :: string operator[](int index) {
-        return rola_filme[index-1]->getNumeFilm();
-    }
+//    std :: string operator[](int index) {
+//        return rola_filme[index-1]->getNumeFilm();
+//    }
 
     ~firma_distributie() {
         for (auto &film : rola_filme)

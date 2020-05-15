@@ -31,40 +31,56 @@ std :: ofstream fout ("fisier.out");
 int main() {
 
     std :: vector <persoana*> persoane;
-    auto *p1 = new persoana("000", "Izabela", "HSM");
-    persoane.push_back(p1);
-    auto *p2 = new persoana("001", "Mara", "Blood");
-    persoane.push_back(p2);
-    persoana *p3 = new regizor("002", "Andreea", "HSM", 12);
-    persoane.push_back(p3);
-    persoana *p4 = new actor("003", "Brindusa", "Blood", 2, 3000);
-    persoane.push_back(p4);
-    persoana *p5= new actor_principal("004", "Alina", "HSM", 3, 2500);
-    persoane.push_back(p5);
-    persoana *p6 = new tehnic ( "005", "Sara", "HSM", "lumini");
-    persoane.push_back(p6);
 
-    fout << "Afisare persoane din primul vector de persoane :D\n";
-    int i = 1;
-    for ( auto &persoana: persoane) {
-//        std :: cout << typeid(*persoana).name() << " ";
-        fout << i << ") " << *persoana << '\n';
-//        std :: cout << persoana->getNumeFilm() << " ";
-        i++;
+    int n, tip;
+    fin >> n;
+    for (int j = 0; j < n; ++j) {
+        fin >> tip;
+        if (tip == 0) {
+            persoana *a = new persoana();
+            fin >> *a;
+            persoane.push_back(a);
+        } else if (tip == 1) {
+            persoana *a = new regizor();
+            fin >> *a;
+            persoane.push_back(a);
+        } else if (tip == 2) {
+            persoana *a = new actor();
+            fin >> *a;
+            persoane.push_back(a);
+        } else if (tip == 3) {
+            persoana *a = new actor_principal();
+            fin >> *a;
+            persoane.push_back(a);
+        } else if (tip == 4) {
+            persoana *a = new tehnic();
+            fin >> *a;
+            persoane.push_back(a);
+        }
     }
-    fout << "Sfarsit persoane. ;) am vrut doar sa verific fuctiile virtuale de afisare.\n\n\n";
+
+//    fout << "Afisare persoane din primul vector de persoane :D\n";
+//    int i = 1;
+//    for ( auto &persoana: persoane) {
+////        std :: cout << typeid(*persoana).name() << " ";
+//        fout << i << ") " << *persoana << '\n';
+////        std :: cout << persoana->getNumeFilm() << " ";
+//        i++;
+//    }
+//    fout << "Sfarsit persoane. ;) am vrut doar sa verific fuctiile virtuale de afisare.\n\n\n";
 
 
     std :: vector <film*> filme;
     // am vrut sa fac fara pointer dar mi se oprea .exe si am incercat asa si a mers si am lasat asa :((
 
-    film *f0 = new film (persoane, "HSM", 100, "musical");
-//    fout << *f0;
-    filme.push_back(f0);
-
-    film *f1 = new film(persoane, "Blood", 1000, "drama");
-//    fout << *f1;
-    filme.push_back(f1);
+    int m; std :: string numefilm;
+    int timp; std :: string gen;
+    fin >> m;
+    for (int i = 0; i < m; ++i) {
+        fin >> numefilm >> timp >> gen;
+        film *f = new film(persoane, numefilm, timp, gen);
+        filme.push_back(f);
+    }
 
     for (auto &film :filme) {
         fout << *film;
@@ -76,25 +92,24 @@ int main() {
 
     contracte h;
     for (auto &i : persoane) {
-        h.inserting(i, 2500); // suma standard pentru toate tipurile de persoane
+        h.insert(i, 2500); // suma standard pentru toate tipurile de persoane
     }
     fout << h;
 
-    // pana aici merge perfect :D
-
     // ! un film poate apartine unei singure firme
     firma_distributie<> F0;
-    F0.insert(f1);
+    F0.insert(filme[0]);
+    F0.insert(filme[2]);
     std :: cout << "Echipa firmei de distributie F0 are in componenta " << firma_distributie<>::getNrPersoane() << " persoane.\n";
-    std :: cout << "In filmul " << F0[1] << " joaca " << firma_distributie<> :: getNrActori() << " actori.\n";
+    std :: cout << "Echipa firmei de distributie F0 are " << firma_distributie<> :: getNrActori() << " actori.\n";
 
     firma_distributie<actor_principal> F;
-    F.insert(f0);
-    std :: cout << "Echipa firmei de distributie F0 are in componenta " << firma_distributie<actor_principal>::getNrPersoane()  << " persoane.\n";
-    std :: cout << "In filmul " << F0[1] << " joaca " <<  firma_distributie<actor_principal>::getNrActori() << " actori.\n";
-    std :: cout << "In filmul " << F[1] << " sunt " << firma_distributie<actor_principal>::getNrActoriPrinc() << " actori principali.\n";
+    F.insert(filme[1]);
+    std :: cout << "Echipa firmei de distributie F are in componenta " << firma_distributie<actor_principal>::getNrPersoane()  << " persoane.\n";
+    std :: cout << "Echipa firmei de distributie F " <<  firma_distributie<actor_principal>::getNrActori() << " actori.\n";
+    std :: cout << "Echipa firmei de distributie F " << firma_distributie<actor_principal>::getNrActoriPrinc() << " actori principali.\n";
 
     // f0 si f1 se sterg in firme, deci nu are sens delete f1 si delete f2
-
+    // TODO: copy constr si "=" la toate clasele
     return 0;
 }

@@ -13,7 +13,7 @@ class contracte {
     std :: set < std :: tuple < persoana*, std :: string, int > > mapa;
 public:
     explicit contracte();
-    void inserting (persoana* pers, int suma_standard);
+    void insert(persoana* pers, int suma_standard);
     friend std :: ostream& operator << (std :: ostream& o, contracte& c);
     ~contracte();
 };
