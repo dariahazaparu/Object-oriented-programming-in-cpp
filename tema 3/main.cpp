@@ -8,9 +8,21 @@
 #include "tehnic.h"
 #include "contracte.h"
 #include "firma_distributie.h"
-#include <tuple>
+#include "firma_distributie_spec.h"
 #include <fstream>
 
+
+template <class t>
+int firma_distributie<t> :: nr_persoane = 0;
+
+template <class t>
+int firma_distributie<t> :: nr_actori = 0;
+
+int firma_distributie<actor_principal> :: nr_persoane = 0;
+
+int firma_distributie<actor_principal> :: nr_actori = 0;
+
+int firma_distributie<actor_principal> :: nr_actori_princ = 0;
 
 
 std :: ifstream fin("fisier.in");
@@ -70,16 +82,19 @@ int main() {
 
     // pana aici merge perfect :D
 
+    // ! un film poate apartine unei singure firme
     firma_distributie<> F0;
     F0.insert(f1);
-    std :: cout << F0.getNrPersoane() << " ";
-//
-//    firma_distributie<actor_principal> F;
-//    F.insert(f0);
-//    std :: cout << firma_distributie<actor_principal>::getNrPersoane() << " ";
-//    std :: cout << firma_distributie<actor_principal>::getNrActori() << " ";
-//    std :: cout << firma_distributie<actor_principal>::getNrActoriPrinc();
+    std :: cout << "Echipa firmei de distributie F0 are in componenta " << firma_distributie<>::getNrPersoane() << " persoane.\n";
+    std :: cout << "In filmul " << F0[1] << " joaca " << firma_distributie<> :: getNrActori() << " actori.\n";
 
-//    delete f1;
+    firma_distributie<actor_principal> F;
+    F.insert(f0);
+    std :: cout << "Echipa firmei de distributie F0 are in componenta " << firma_distributie<actor_principal>::getNrPersoane()  << " persoane.\n";
+    std :: cout << "In filmul " << F0[1] << " joaca " <<  firma_distributie<actor_principal>::getNrActori() << " actori.\n";
+    std :: cout << "In filmul " << F[1] << " sunt " << firma_distributie<actor_principal>::getNrActoriPrinc() << " actori principali.\n";
+
+    // f0 si f1 se sterg in firme, deci nu are sens delete f1 si delete f2
+
     return 0;
 }

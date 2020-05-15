@@ -52,3 +52,7 @@ void film::afisare(std :: ostream& o) {
 const std::vector<persoana *> &film::getPersoanePart() const {
     return persoane_part;
 }
+
+const std::string &film::getNumeFilm() const {
+    return nume_film;
+}

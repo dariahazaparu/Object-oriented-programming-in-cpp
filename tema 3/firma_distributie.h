@@ -41,16 +41,16 @@ public:
     static int getNrActori() {
         return nr_actori;
     }
+
+    std :: string operator[](int index) {
+        return rola_filme[index-1]->getNumeFilm();
+    }
+
     ~firma_distributie() {
         for (auto &film : rola_filme)
             delete film;
     }
 };
-
-template <class t>
-int firma_distributie<t> :: nr_persoane = 0;
-template <class t>
-int firma_distributie<t> :: nr_actori = 0;
 
 
 

@@ -23,6 +23,9 @@ public:
     void citire(std :: istream& i);
     friend std :: ostream& operator << (std :: ostream& o, film& f);
     void afisare(std :: ostream &o);
+
+    const std::string &getNumeFilm() const;
+
     ~film();
 };
 
