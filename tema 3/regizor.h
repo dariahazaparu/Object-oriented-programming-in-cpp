@@ -9,7 +9,7 @@
 
 class regizor : public persoana {
     int nr_filme;
-    static int suma_fixa;
+    static double suma_fixa;
 public:
     explicit regizor(std :: string CNP = "", std :: string nume = "", std :: string nume_film = "", int nr_filme = 0);
     void citire(std :: istream &i) override;

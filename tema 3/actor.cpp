@@ -9,7 +9,9 @@
 
 
 actor::actor(std :: string CNP, std :: string nume, std :: string nume_film, int nr_filme, double suma)
-        : persoana(std::move(CNP), std::move(nume), std::move(nume_film)), nr_filme(nr_filme), suma(suma) {}
+        : persoana(std::move(CNP), std::move(nume), std::move(nume_film)), nr_filme(nr_filme), suma(suma) {
+//    std :: cout << nr_filme << " " << suma << " ";
+}
 
 void actor::citire(std::istream &i) {
     persoana::citire(i);
@@ -21,7 +23,7 @@ void actor::print(std::ostream &o) {
     o << "Suma ceruta: " << suma << '\n';
 }
 
-int actor::getSuma() const {
+double actor::getSuma() const {
     return suma;
 }
 

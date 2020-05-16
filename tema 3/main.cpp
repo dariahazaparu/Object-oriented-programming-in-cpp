@@ -37,7 +37,7 @@ int main() {
     for (int j = 0; j < n; ++j) {
         fin >> tip;
         if (tip == 0) {
-            persoana *a = new persoana();
+            auto *a = new persoana();
             fin >> *a;
             persoane.push_back(a);
         } else if (tip == 1) {
@@ -58,6 +58,9 @@ int main() {
             persoane.push_back(a);
         }
     }
+
+//    persoana *p = new actor_principal("0045", "nu", "este", 10, 120000);
+//    std :: cout << dynamic_cast<actor_principal*>(p)->getSumaPlusBonus() << " ";
 
 //    fout << "Afisare persoane din primul vector de persoane :D\n";
 //    int i = 1;
@@ -106,10 +109,9 @@ int main() {
     firma_distributie<actor_principal> F;
     F.insert(filme[1]);
     std :: cout << "Echipa firmei de distributie F are in componenta " << firma_distributie<actor_principal>::getNrPersoane()  << " persoane.\n";
-    std :: cout << "Echipa firmei de distributie F " <<  firma_distributie<actor_principal>::getNrActori() << " actori.\n";
-    std :: cout << "Echipa firmei de distributie F " << firma_distributie<actor_principal>::getNrActoriPrinc() << " actori principali.\n";
+    std :: cout << "Echipa firmei de distributie F are " <<  firma_distributie<actor_principal>::getNrActori() << " actori.\n";
+    std :: cout << "Echipa firmei de distributie F are " << firma_distributie<actor_principal>::getNrActoriPrinc() << " actori principali.\n";
 
-    // f0 si f1 se sterg in firme, deci nu are sens delete f1 si delete f2
     // TODO: copy constr si "=" la toate clasele
     return 0;
 }

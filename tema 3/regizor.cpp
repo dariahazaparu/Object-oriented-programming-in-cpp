@@ -7,7 +7,7 @@
 #include <utility>
 #include <iostream>
 
-int regizor :: suma_fixa = 5000;
+double regizor :: suma_fixa = 5000;
 
 regizor::regizor(std :: string CNP, std :: string nume, std :: string nume_film, int nr_filme)
         : persoana(std::move(CNP), std::move(nume), std::move(nume_film)), nr_filme(nr_filme) {}

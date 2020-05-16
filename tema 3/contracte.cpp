@@ -33,13 +33,18 @@ std :: ostream& operator << (std :: ostream& o, contracte& c) {
     return o;
 }
 
-void contracte::insert(persoana *pers, int suma_standard) {
+void contracte::insert(persoana *pers, double suma_standard) {
+//    std :: cout << suma_standard << " ";
     std::tuple<persoana *, std :: string, int> contr;
     if (typeid(*pers) == typeid(regizor)) {
         suma_standard = regizor :: getSumaFixa();
     }
     if (typeid(*pers) == typeid(actor_principal)) {
+//        std :: cout << suma_standard << " ";
+//        std :: cout << *(dynamic_cast<actor_principal*>(pers));
         suma_standard = dynamic_cast<actor_principal*>(pers)->getSumaPlusBonus();
+//        std :: cout << suma_standard << "\n";
+/// nu inteleg de ce aici iese 0 din cast, in main merge perfect
     }
     if (typeid(*pers) == typeid(actor)) {
         suma_standard = dynamic_cast<actor*>(pers)->getSuma();
