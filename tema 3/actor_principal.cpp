@@ -7,13 +7,13 @@
 #include <utility>
 
 actor_principal::actor_principal(std :: string CNP, std :: string nume, std :: string nume_film, int nr_filme, double suma)
-        :actor (std::move(CNP), std::move(nume), std::move(nume_film), nr_filme, suma) {
+        :actor (CNP, nume, nume_film, nr_filme, suma) {
     suma_plus_bonus = suma * 1.1;
-//    std :: cout << nr_filme  << " " << suma << " " << suma_plus_bonus << "\n" ;
 }
 
 void actor_principal::citire(std::istream &i) {
     actor::citire(i);
+    suma_plus_bonus = suma * 1.1;
 }
 
 void actor_principal::print(std::ostream &o) {

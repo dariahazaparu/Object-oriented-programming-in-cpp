@@ -52,6 +52,7 @@ int main() {
             persoana *a = new actor_principal();
             fin >> *a;
             persoane.push_back(a);
+//            std :: cout << *a;
         } else if (tip == 4) {
             persoana *a = new tehnic();
             fin >> *a;
@@ -60,7 +61,7 @@ int main() {
     }
 
 //    persoana *p = new actor_principal("0045", "nu", "este", 10, 120000);
-//    std :: cout << dynamic_cast<actor_principal*>(p)->getSumaPlusBonus() << " ";
+//    std :: cout << dynamic_cast<actor_principal*>(p)->getSumaPlusBonus() << "\n";
 
 //    fout << "Afisare persoane din primul vector de persoane :D\n";
 //    int i = 1;
