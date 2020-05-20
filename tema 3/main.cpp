@@ -32,6 +32,7 @@ int main() {
 
     std :: vector <persoana*> persoane;
 
+//    std :: cout << sizeof(film*);
     int n = 0, tip = 0;
     fin >> n;
     persoana *a = nullptr;
