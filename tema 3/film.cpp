@@ -5,7 +5,7 @@
 #include <utility>
 #include "film.h"
 
-film::film(std :: vector<persoana*> persoane, std :: string nume_film, int durata, std :: string tip)
+film::film(std :: vector<persoana*> &persoane, std :: string nume_film, int durata, std :: string tip)
         :nume_film(nume_film),  durata(durata), tip(std::move(tip)) {
     for (auto& pers : persoane) {
         if (pers->getNumeFilm() == nume_film) {

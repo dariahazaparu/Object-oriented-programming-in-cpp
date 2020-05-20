@@ -26,4 +26,4 @@ int regizor::getSumaFixa() {
     return suma_fixa;
 }
 
-regizor::~regizor() {};
+regizor::~regizor() {}

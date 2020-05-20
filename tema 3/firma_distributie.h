@@ -17,7 +17,7 @@ class firma_distributie {
     static int nr_actori;
 public:
     firma_distributie() = default;
-    explicit firma_distributie(std::vector<film*> rolafilme) {
+    explicit firma_distributie(const std::vector<film*>& rolafilme) {
         for (auto &film: rolafilme)
             firma_distributie::insert(film);
     }

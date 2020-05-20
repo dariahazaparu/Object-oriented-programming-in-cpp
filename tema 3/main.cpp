@@ -32,29 +32,30 @@ int main() {
 
     std :: vector <persoana*> persoane;
 
-    int n, tip;
+    int n = 0, tip = 0;
     fin >> n;
+    persoana *a = nullptr;
     for (int j = 0; j < n; ++j) {
         fin >> tip;
         if (tip == 0) {
-            auto *a = new persoana();
+            a = new persoana();
             fin >> *a;
             persoane.push_back(a);
         } else if (tip == 1) {
-            persoana *a = new regizor();
+            a = new regizor();
             fin >> *a;
             persoane.push_back(a);
         } else if (tip == 2) {
-            persoana *a = new actor();
+            a = new actor();
             fin >> *a;
             persoane.push_back(a);
         } else if (tip == 3) {
-            persoana *a = new actor_principal();
+            a = new actor_principal();
             fin >> *a;
             persoane.push_back(a);
 //            std :: cout << *a;
         } else if (tip == 4) {
-            persoana *a = new tehnic();
+            a = new tehnic();
             fin >> *a;
             persoane.push_back(a);
         }
@@ -77,12 +78,13 @@ int main() {
     std :: vector <film*> filme;
     // am vrut sa fac fara pointer dar mi se oprea .exe si am incercat asa si a mers si am lasat asa :((
 
-    int m; std :: string numefilm;
-    int timp; std :: string gen;
+    int m = 0; std :: string numefilm;
+    int timp = 0; std :: string gen;
     fin >> m;
+    film *f = nullptr;
     for (int i = 0; i < m; ++i) {
         fin >> numefilm >> timp >> gen;
-        film *f = new film(persoane, numefilm, timp, gen);
+        f = new film(persoane, numefilm, timp, gen);
         filme.push_back(f);
     }
 

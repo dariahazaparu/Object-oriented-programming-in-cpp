@@ -18,7 +18,7 @@ class film {
 public:
     const std::vector<persoana *> &getPersoanePart() const;
 
-    explicit film(std :: vector<persoana*> persoane, std :: string nume_film = "", int durata = 0, std :: string tip = "");
+    explicit film(std :: vector<persoana*> &persoane, std :: string nume_film = "", int durata = 0, std :: string tip = "");
     friend std :: istream& operator >> (std :: istream &i, film& f);
     void citire(std :: istream& i);
     friend std :: ostream& operator << (std :: ostream& o, film& f);
